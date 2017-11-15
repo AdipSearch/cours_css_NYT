@@ -13,3 +13,286 @@
  *= require_tree .
  *= require_self
  */
+html{
+	width:100%;
+}
+body{
+	margin: 0 5% 0 5%;
+	background-color: rgba(255,255,255,1);
+ 	border-left: 0.4px solid rgba(170,167,167,0.7);
+ 	border-bottom: 0.4px solid rgba(170,167,167,0.7);
+ 	border-right: 0.4px solid rgba(170,167,167,0.7);
+ 	box-shadow: 4px 0 10px -4px rgba(170,167,167,0.7), -4px 0 8px -4px rgba(170,167,167,0.7);
+}
+ .all{
+ 	margin-top: 50px;
+ 	
+	
+	
+ }
+
+ header{
+ 	position: fixed;
+ 	width: 90%;
+ 	margin: -50px 0 0 0;
+ 	background-color: rgba(250,250,250,1);
+ 	display: flex;
+ 	justify-content: space-between;
+ 	border-left: 0.4px solid rgba(170,167,167,0.7);
+ 	border-right: 0.4px solid rgba(170,167,167,0.7);
+ 	border-bottom: 0.4px solid rgba(170,167,167,0.7);
+ 	min-height: 50px;
+ 	font-size: 10px;
+ 	font-family: georgia, sans-serif;
+ }
+ 
+
+
+ .left{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	font-weight: bold;
+ }
+
+ .right{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	padding: 2px;
+ }
+
+ .partie_menu{
+ 	flex-grow: 1;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	padding: 0px 10px 0px 10px;
+ 	min-width:20%;
+ }
+
+ .section_menu{
+ 	
+ 	border:0.4px solid rgba(170,167,167,0.7);
+ 	position: relative;
+ 	right:30px;
+ 	padding: 0px 20px 0px 20px;
+ 	background-color: rgba(250,250,250,1);
+ }
+
+ 
+.boutons{
+	display: flex;
+	justify-content: space-between;
+}
+ .bouton{
+ 	background-color: rgba(90,132,166,1);
+ 	color: white;
+ 	font-weight: bold;
+ 	border:0.5px solid rgba(40,98,147,1);
+ 	border-radius: 2px;
+ 	padding: 10px;
+ 	margin: 0px 5px 0px 5px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.bouton a, .bouton a:hover, .bouton a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.bouton:hover{
+	background-color: rgba(40,98,147,1);
+}
+
+.haut{
+	display: flex;
+	border-bottom:0.4px solid rgba(170,167,167,0.7);
+	overflow: hidden;
+	font-size: 14px;
+	box-shadow: 0px 4px 10px -4px rgba(170,167,167,0.7);
+}
+.vignette a{
+	color:rgb(120,120,120);
+}
+.vignette{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	border-right:0.4px solid rgba(170,167,167,0.7);
+	margin:10px 0 10px 0;
+	color:rgb(160,160,160);
+	padding-left: 10px;
+
+}
+
+.vignette_title{
+	padding-left: 5px;
+
+}
+
+section{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.pub_bandeau{
+	min-height: 100px;
+	border-bottom: 1px solid black;
+	width:75%;
+
+}
+
+.titles{
+	font-weight: bold;
+	
+	border-bottom: 0.4px solid rgba(170,167,167,0.7);
+
+}
+
+article{
+	width:75%;
+
+}
+
+h1{
+	font-size: 30px;
+	font-style: italic;
+}
+
+.image_cosmos{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.image_principale figcaption{
+	color:rgb(160,160,160);
+	width: 50%;
+	font-size: 14px;
+}
+
+.telescope figcaption{
+	color:rgb(160,160,160);
+	font-size: 14px;
+
+}
+
+.corps{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+.texte_column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	line-height: 1.6rem;
+	font-size: 1.0625rem;
+	color: #333;
+}
+
+.aside_column{
+	width: 30%;
+}
+
+.texte_article{
+	width: 70%;
+}
+
+.comments h1{
+	color: rgba(40,98,147,1);
+	font-size: 0.9rem;
+	font-family: sans-serif;
+}
+i{
+	color:rgba(90,132,166,1);
+	margin-right: 5px;
+	
+}
+i:hover{
+	color:rgba(40,98,147,1);
+}
+
+.comment p{
+	max-height: 50px;
+	font-size: 0.9rem;
+  	overflow: hidden;
+	text-overflow: ellipsis; 
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.comment h2{
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin-bottom:5px;
+}
+
+.schemas{
+	
+	padding-top: 40px;
+	border-top: 0.5px solid grey;
+	border-bottom: 0.5px solid grey;
+
+}
+
+.inflation{
+	width: 100%;
+	
+
+}
+ul{
+	list-style: none;
+}
+.part_1{
+	display: flex;
+	padding-left: 0;
+	padding-right: 20px;
+	border-right: 0.5px solid grey;
+
+}
+#foot-list{
+	padding: 0;
+	display: flex;
+	
+}
+
+.menu{
+	width:75%;
+	border-top: 4px double grey;
+}
+.bas{
+
+
+}
+.foot-col-haut{
+	padding-left: 10px;
+}
+
+.foot-col-bas{
+	border-top: 0.5px solid grey;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left:10px; 
+	
+}
+
+.foot-col-last{
+	padding-left:10px; 
+}
+
+ 
+
+
+ 
