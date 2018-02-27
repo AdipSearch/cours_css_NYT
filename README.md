@@ -1,24 +1,8 @@
-# README
+# cours_css_NYT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objet
+Reproduire page NYT
 
-Things you may want to cover:
+## Aperçu
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![capture cours_css_NYT](https://user-images.githubusercontent.com/32294560/36738912-f19ba142-1bde-11e8-9062-4ba9203b05eb.png)
